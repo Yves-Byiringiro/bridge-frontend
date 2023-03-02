@@ -1,0 +1,15 @@
+.reg-btn{
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: cursive;
+    color: white;
+}
+.reg-btn:hover{
+    background: rgb(205 134 58);
+}

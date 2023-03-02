@@ -19,6 +19,8 @@ import { ButtonComponent } from './components/general/button/button.component';
 import { SmallTextComponent } from './components/general/small-text/small-text.component';
 import { BoldTextComponent } from './components/general/bold-text/bold-text.component';
 import { RegisterComponent } from './components/register/register.component';
+import { RegularBtnComponent } from './components/buttons/regular-btn/regular-btn.component';
+import { SingleSocialMediaComponent } from './components/single-social-media/single-social-media.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { RegisterComponent } from './components/register/register.component';
     ButtonComponent,
     SmallTextComponent,
     BoldTextComponent,
-    RegisterComponent
+    RegisterComponent,
+    RegularBtnComponent,
+    SingleSocialMediaComponent
   ],
   imports: [
     BrowserModule
