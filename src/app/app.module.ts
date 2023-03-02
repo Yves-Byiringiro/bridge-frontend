@@ -20,7 +20,6 @@ import { SmallTextComponent } from './components/general/small-text/small-text.c
 import { BoldTextComponent } from './components/general/bold-text/bold-text.component';
 import { RegisterComponent } from './components/register/register.component';
 import { RegularBtnComponent } from './components/buttons/regular-btn/regular-btn.component';
-import { SingleSocialMediaComponent } from './components/single-social-media/single-social-media.component';
 
 @NgModule({
   declarations: [
@@ -42,8 +41,8 @@ import { SingleSocialMediaComponent } from './components/single-social-media/sin
     SmallTextComponent,
     BoldTextComponent,
     RegisterComponent,
-    RegularBtnComponent,
-    SingleSocialMediaComponent
+    RegularBtnComponent
+    
   ],
   imports: [
     BrowserModule
